@@ -1,0 +1,29 @@
+{
+  "window": { "start": "2026-02-01", "end": "2026-04-01" },
+  "activities": [
+    {
+      "id": "gym",
+      "start": "2026-01-28",
+      "duration_days": 1,
+      "recurrence": { "freq": "weekly", "interval": 1, "count": 8, "weekdays": ["WE", "FR"] },
+      "exclude": ["2026-02-13"]
+    },
+    {
+      "id": "rent",
+      "start": "2026-01-31",
+      "duration_days": 2,
+      "recurrence": { "freq": "monthly", "interval": 1, "until": "2026-05-31" }
+    },
+    {
+      "id": "offsite",
+      "start": "2026-03-10",
+      "duration_days": 3,
+      "add": ["2026-03-20"]
+    },
+    {
+      "id": "quiet",
+      "start": "2026-09-01",
+      "duration_days": 1
+    }
+  ]
+}
