@@ -1,0 +1,11 @@
+{
+  "window": {"start": "2026-01-01", "end": "2026-02-01"},
+  "activities": [
+    {
+      "id": "bad",
+      "start": "2026-01-05",
+      "duration_days": 1,
+      "recurrence": {"type": "daily", "interval": 1, "until": "2026-01-01"}
+    }
+  ]
+}

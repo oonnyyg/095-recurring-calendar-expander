@@ -1,0 +1,24 @@
+{
+  "window": {"start": "2026-01-01", "end": "2026-03-01"},
+  "activities": [
+    {
+      "id": "standup",
+      "start": "2026-01-05",
+      "duration_days": 1,
+      "recurrence": {"type": "weekly", "interval": 1, "weekdays": ["MO", "WE"], "until": "2026-02-28"},
+      "exclude_dates": ["2026-01-26"]
+    },
+    {
+      "id": "rent",
+      "start": "2026-01-31",
+      "duration_days": 3,
+      "recurrence": {"type": "monthly", "interval": 1, "count": 2}
+    },
+    {
+      "id": "workshop",
+      "start": "2026-02-10",
+      "duration_days": 4,
+      "add_dates": ["2026-02-20"]
+    }
+  ]
+}
